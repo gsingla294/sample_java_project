@@ -6,15 +6,13 @@ import org.junit.Test;
 /**
  * Created by shaines on 7/24/16.
  * Added for git diff
- * Added for branch B
- * Added for branch C
  */
 public class ThingTest {
 
     @Test
     public void testN() {
         Thing t = new Thing();
-        t.setN(5);
+        t.setN(6);
         Assert.assertEquals("N should be 5", 5, t.getN());
     }
 }
