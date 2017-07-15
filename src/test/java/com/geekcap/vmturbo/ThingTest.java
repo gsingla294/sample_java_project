@@ -5,6 +5,7 @@ import org.junit.Test;
 
 /**
  * Created by shaines on 7/24/16.
+ * Added for git diff
  */
 public class ThingTest {
 
