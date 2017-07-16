@@ -12,7 +12,7 @@ public class ThingTest {
     @Test
     public void testN() {
         Thing t = new Thing();
-        t.setN(6);
+        t.setN(5);
         Assert.assertEquals("N should be 5", 5, t.getN());
     }
 }
